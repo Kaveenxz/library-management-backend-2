@@ -1,14 +1,15 @@
 package org.example.service.impl;
 
 import org.example.dto.Borrower;
-import org.example.entitiy.BorrowerEntity;
 import org.example.service.BorrowerService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class BorrowerServiceImpl implements BorrowerService {
     @Override
-    public void addBorrowe(BorrowerEntity borrower) {
+    public void addBorrower(Borrower borrower) {
 
     }
 
