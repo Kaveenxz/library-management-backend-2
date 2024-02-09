@@ -31,8 +31,8 @@ public class BorrowerServiceImpl implements BorrowerService {
     }
 
     @Override
-    public List<Borrower> gerBorrowers() {
-        return null;
+    public List<BorrowerEntity> gerBorrowers() {
+        return repository.findAll();
     }
 
     @Override
