@@ -37,7 +37,12 @@ public class BorrowerServiceImpl implements BorrowerService {
 
     @Override
     public boolean deleteBorrower(Long id) {
-        return false;
+        if(repository.existsById(id)){
+            repository.deleteById(id);
+            return true;
+        }else{
+            return false;
+        }
     }
 
     @Override
