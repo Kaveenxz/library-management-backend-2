@@ -28,4 +28,12 @@ public class BorrowerController {
         return service.gerBorrowers();
     }
 
+    @DeleteMapping("/{id}")
+    @ResponseStatus(HttpStatus.OK)
+    public String deleteBorrower(@PathVariable Long id){
+        service.deleteBorrower(id) ;
+        return "delete";
+
+    }
+
 }
