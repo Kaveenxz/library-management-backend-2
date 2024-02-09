@@ -36,4 +36,10 @@ public class BorrowerController {
 
     }
 
+    @GetMapping("serch/{id}")
+    public Borrower getBookBuId(@PathVariable Long id){
+        return service.getBorrowerById(id);
+    }
+
+
 }
