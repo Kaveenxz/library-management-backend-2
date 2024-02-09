@@ -12,5 +12,5 @@ public class Borrower {
     private String Fname;
     private String Lname;
     private String address;
-    private Integer teleNo;
+    private String teleNo;
 }
