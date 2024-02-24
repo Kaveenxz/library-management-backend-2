@@ -7,8 +7,6 @@ S
 +src/main/java/org/example/dto/Borrower.java,8\5\8534f40b91593138052fbea537f832cbf585bcd6
 l
 <src/main/java/org/example/controller/BorrowerController.java,c\6\c67cdcda3edc73c358daf9461f625a7089826461
-_
-/src/main/java/org/example/entitiy/Borrower.java,7\1\7185a554f81cbc953754ba03d63cf3a5ad04c600
 f
 6src/main/java/org/example/service/BorrowerService.java,a\f\af1dda329904bb9d48d91337372224e7e80b1f11
 o
