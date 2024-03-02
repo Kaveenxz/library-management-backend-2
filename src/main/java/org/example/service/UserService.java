@@ -13,4 +13,6 @@ public interface UserService {
     void deleteById(Long id);
 
     User findByUserName(String userName);
+
+    Boolean isExistUser(String userName);
 }

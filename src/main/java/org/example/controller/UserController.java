@@ -34,5 +34,9 @@ public class UserController {
         return service.findByUserName(userName);
     }
 
+    @GetMapping("/is-exist-user/{userName}")
+    public Boolean isExistUser(@PathVariable String userName){
+        return service.isExistUser(userName);
+    }
 
 }
