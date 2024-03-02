@@ -29,5 +29,10 @@ public class UserController {
         service.deleteById(id);
     }
 
+    @GetMapping("/find-user-name/{userName}")
+    public User findByUserName(@PathVariable String userName){
+        return service.findByUserName(userName);
+    }
+
 
 }
