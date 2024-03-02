@@ -30,7 +30,6 @@ public class BorrowerServiceImpl implements BorrowerService {
         BorrowerEntity entity = mapper.map(borrower, BorrowerEntity.class);
         repository.save(entity);
     }
-
     @Override
     public List<BorrowerEntity> gerBorrowers() {
         return repository.findAll();
@@ -49,7 +48,14 @@ public class BorrowerServiceImpl implements BorrowerService {
     @Override
     public Borrower getBorrowerById(Long id) {
         Optional<BorrowerEntity> byId = repository.findById(id);
-        return mapper.map(byId, Borrower.class);
 
+        if (byId.isPresent()) {
+            BorrowerEntity entity = byId.get();
+            return mapper.map(entity, Borrower.class);
+        } else {
+            // Handle the case when the borrower with the given id is not found
+            return null; // or throw an exception, return a default value, etc.
+        }
     }
+
 }

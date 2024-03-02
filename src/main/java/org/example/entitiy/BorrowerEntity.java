@@ -7,6 +7,7 @@ import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -14,9 +15,9 @@ import lombok.NoArgsConstructor;
 public class BorrowerEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
-    private String Fname;
-    private String Lname;
+    private Long id;
+    private String fName;
+    private String lName;
     private String address;
     private Integer teleNo;
 

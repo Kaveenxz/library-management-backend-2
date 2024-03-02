@@ -8,9 +8,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Borrower {
-    private long id;
-    private String Fname;
-    private String Lname;
+    private Long id;
+    private String fName;
+    private String lName;
     private String address;
     private String teleNo;
 }

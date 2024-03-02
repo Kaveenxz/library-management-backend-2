@@ -24,7 +24,7 @@ public class BorrowerController {
     }
 
     @GetMapping("/get")
-    public List<BorrowerEntity> getBorrowers(){
+    public Iterable<BorrowerEntity> getBorrowers(){
         return service.gerBorrowers();
     }
 
@@ -41,5 +41,10 @@ public class BorrowerController {
         return service.getBorrowerById(id);
     }
 
+
+    @GetMapping()
+    public List<> getAllUsers(){
+        return null;
+    }
 
 }
