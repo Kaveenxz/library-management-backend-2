@@ -13,8 +13,6 @@ a
 1src/main/java/org/example/entitiy/UserEntity.java,d\f\dfc4277feee20ea19c28a05c1746f2b168313451
 W
 'src/main/java/org/example/dto/User.java,6\0\601197a5b4099754ee1f3d98bf124746b74b1b11
-S
-#src/main/java/org/example/dto/login,b\d\bdc8606d2f664e5ac441782511a778e69f6a7fcb
 X
 (src/main/java/org/example/dto/Login.java,9\7\971c38db7db76751b31f0247d7e13678aa152cbe
 b
@@ -25,3 +23,5 @@ c
 3src/main/java/org/example/service/LoginService.java,e\d\ed71785f5173acdfb1f2848b190003a937cf4c58
 l
 <src/main/java/org/example/service/impl/LoginServiceImpl.java,6\4\648164e3a660c8cd323ac6079a8e9901c8b8ae62
+i
+9src/main/java/org/example/controller/LoginController.java,4\1\41df90906aa86c82e7377516736ddb118352030d
